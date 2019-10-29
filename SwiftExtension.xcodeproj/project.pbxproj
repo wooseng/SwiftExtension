@@ -11,6 +11,7 @@
 		1FFD23785F85646D9694B7EF /* Pods_SwiftExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3662C13FE726D5475DADC794 /* Pods_SwiftExtension.framework */; };
 		7C697A378661CB71231F8E0F /* Pods_Sources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642BBA76CCE7B8A02CBC9F73 /* Pods_Sources.framework */; };
 		88C7DF5F0882C67583FC75B1 /* Pods_SwiftExtension_SwiftExtensionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93B80A18A3EA9968871D0AB /* Pods_SwiftExtension_SwiftExtensionUITests.framework */; };
+		940D68CF236815E600776162 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940D68CE236815E600776162 /* UIViewController+Ext.swift */; };
 		9481DBF82366D94900086EB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9481DBF72366D94900086EB5 /* AppDelegate.swift */; };
 		9481DBFC2366D94900086EB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9481DBFB2366D94900086EB5 /* ViewController.swift */; };
 		9481DBFF2366D94900086EB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9481DBFD2366D94900086EB5 /* Main.storyboard */; };
@@ -103,6 +104,7 @@
 		76DD900787A3E805B24F6BD8 /* Pods-SwiftExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftExtension.debug.xcconfig"; path = "Target Support Files/Pods-SwiftExtension/Pods-SwiftExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		8D782221E19B33E5C9C2F911 /* Pods-SwiftExtension-SwiftExtensionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftExtension-SwiftExtensionUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftExtension-SwiftExtensionUITests/Pods-SwiftExtension-SwiftExtensionUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		92CB634E96356F2486769E46 /* Pods-SwiftExtensionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftExtensionTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftExtensionTests/Pods-SwiftExtensionTests.release.xcconfig"; sourceTree = "<group>"; };
+		940D68CE236815E600776162 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		9481DBF42366D94900086EB5 /* SwiftExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9481DBF72366D94900086EB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9481DBFB2366D94900086EB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -280,6 +282,7 @@
 				9481DC4D2366DC3800086EB5 /* URLRequest+Ext.swift */,
 				9481DC2E2366DB7500086EB5 /* Sources.h */,
 				9481DC2F2366DB7500086EB5 /* Info.plist */,
+				940D68CE236815E600776162 /* UIViewController+Ext.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -672,6 +675,7 @@
 			files = (
 				9481DC612366DC3900086EB5 /* String+Ext.swift in Sources */,
 				9481DC692366DC3900086EB5 /* Runtime+Ext.swift in Sources */,
+				940D68CF236815E600776162 /* UIViewController+Ext.swift in Sources */,
 				9481DC662366DC3900086EB5 /* Dictionary+Ext.swift in Sources */,
 				9481DC6B2366DC3900086EB5 /* UIDevice+Model.swift in Sources */,
 				9481DC652366DC3900086EB5 /* Date+Timestamp.swift in Sources */,
@@ -1005,7 +1009,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.1;
+				MARKETING_VERSION = 0.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.51shaoxi.Sources;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -1037,7 +1041,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.1;
+				MARKETING_VERSION = 0.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.51shaoxi.Sources;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
